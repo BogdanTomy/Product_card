@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product_card</title>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="style/style.css">
+	<!-- Fonts API -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Main Javascript file -->
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="card_wrapper">
+		<div class="product-img-container">
+
+						<!-- Slider -->
+			<div id="slider">
+				<ul id="slideWrap"> 
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<a id="prev" href="#">&#60;</a>
+				<a id="next" href="#">&#62;</a>
+			</div>
+		</div>
+		<div class="product-info-container">
+
+						<!-- Title -->
+			<h3 class="product-title">
+				Suede black sand
+			</h3>
+			<div class="product-rate">
+
+						<!-- Stars -->
+				<div class="product-stars">
+					<img 
+					class="product-star" data-rate="1" src="img/star_filled-32.png" alt="star"><img 
+					class="product-star" data-rate="2" src="img/star-32.png" alt="star"><img 
+					class="product-star" data-rate="3" src="img/star-32.png" alt="star"><img 
+					class="product-star" data-rate="4" src="img/star-32.png" alt="star"><img 
+					class="product-star" data-rate="5" src="img/star-32.png" alt="star">
+				</div>
+
+						<!-- Reviews -->
+				<div class="product-reviews">
+					<p>Reviews: <span>8</span></p>
+				</div>
+			</div>
+			<div class="product-description">
+				<ul>
+					<li>Lorem ipsum dolor sit amet,</li>
+					<li>Consectetur adipiscing elit.</li>
+					<li>Aenean euismod bibendum laoreet.</li>
+					<li>Proin gravida dolor sit amet lacus.</li>
+				</ul>
+			</div>
+
+						<!-- Choose color pag -->
+			<div class="product-colors-wrapper">
+				<div class="product-color_1" data-index="1"></div>
+				<div class="product-color_2" data-index="1"></div>
+				<div class="product-color_3" data-index="1"></div>
+			</div>
+
+						<!-- Prise -->
+			<div class="product-count-prise-wrapper">
+				<div class="product-count">
+					<div class="pag-left" id="pag-left"></div>
+					<div class="count" id="good-count">1</div>
+					<div class="pag-right" id="pag-right"></div>
+				</div>
+				<div class="product-prise">EUR <span id="prise">140</span>.00</div>
+			</div>
+
+						<!-- Buttons -->
+			<div class="product-buttons-wrapper">
+				<a href="#" class="button add-card-button">Add to card</a>
+				<a href="#" class="button see-more-button">See more ></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
